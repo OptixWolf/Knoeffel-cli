@@ -121,10 +121,11 @@ namespace Kniffel_cli
                 {
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine("Das Spiel ist vorbei");
-                    Console.WriteLine("Zum Neustarten Enter drücken");
+                    Console.WriteLine("Zum Beenden Enter drücken");
 
                     Console.ResetColor();
                     Console.ReadLine();
+                    Environment.Exit(0);
                 }
                 else
                 {
