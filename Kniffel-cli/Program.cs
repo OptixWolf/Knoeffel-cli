@@ -93,7 +93,7 @@ namespace Kniffel_cli
                 Zeile("Nur Zweien", w => w.NurZweien);
                 Zeile("Nur Dreien", w => w.NurDreien);
                 Zeile("Nur Vieren", w => w.NurVieren);
-                Zeile("Nur Fuenfen", w => w.NurFuenfen);
+                Zeile("Nur Fünfen", w => w.NurFuenfen);
                 Zeile("Nur Sechsen", w => w.NurSechsen);
                 Console.WriteLine(linie);
                 Console.ForegroundColor = ConsoleColor.DarkCyan;
@@ -106,7 +106,7 @@ namespace Kniffel_cli
                 Zeile("Full House", w => w.FullHouse);
                 Zeile("Kleine Strasse", w => w.KleineStrasse);
                 Zeile("Grosse Strasse", w => w.GrosseStrasse);
-                Zeile("Knueller", w => w.Knueller);
+                Zeile("Knüller", w => w.Knueller);
                 Zeile("Chance", w => w.Chance);
                 Console.WriteLine(linie);
                 Console.ForegroundColor = ConsoleColor.DarkCyan;
@@ -145,7 +145,7 @@ namespace Kniffel_cli
                             Console.ForegroundColor = ConsoleColor.Green;
                         }
 
-                        Console.Write($"Würfel {i + 1}: {WuerfelBlatt.WuerfelListe[i].Augenzahl}\t");
+                        Console.Write($"Würfel-{i + 1}: {WuerfelBlatt.WuerfelListe[i].Augenzahl}\t");
 
                         Console.ResetColor();
                     }
