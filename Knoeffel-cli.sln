@@ -1,8 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kniffel-cli", "Kniffel-cli\Kniffel-cli.csproj", "{91569E56-550A-4794-9A94-A7BDB24862E7}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knoeffel-cli", "Kniffel-cli\Knoeffel-cli.csproj", "{91569E56-550A-4794-9A94-A7BDB24862E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kniffel-cliTests", "Kniffel-cliTests\Kniffel-cliTests.csproj", "{E1CD635F-E152-494D-8096-51AD78DB35E9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knoeffel-cliTests", "Kniffel-cliTests\Knoeffel-cliTests.csproj", "{E1CD635F-E152-494D-8096-51AD78DB35E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +21,8 @@ Global
 		{E1CD635F-E152-494D-8096-51AD78DB35E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1CD635F-E152-494D-8096-51AD78DB35E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1CD635F-E152-494D-8096-51AD78DB35E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

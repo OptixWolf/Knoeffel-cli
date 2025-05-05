@@ -1,4 +1,4 @@
-namespace Kniffel_cli;
+namespace Knoeffel_cli;
 
 public class Wuerfel
 {

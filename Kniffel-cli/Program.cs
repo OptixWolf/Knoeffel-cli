@@ -1,6 +1,6 @@
-﻿using Kniffel_cli;
+﻿using Knoeffel_cli;
 
-namespace Kniffel_cli
+namespace Knoeffel_cli
 {
     internal class Program
     {
@@ -12,7 +12,7 @@ namespace Kniffel_cli
 
         private static void Main(string[] args)
         {
-            Console.Title = "Kniffel-cli von OptixWolf";
+            Console.Title = "Knöffel-cli von OptixWolf";
 
             bool loop = true;
             bool error;
@@ -27,7 +27,7 @@ namespace Kniffel_cli
                     WuerfelBlatt.WuerfelListe.Add(new Wuerfel(1, 6));
                 }
 
-                Console.WriteLine("Kniffel-cli");
+                Console.WriteLine("Knöffel-cli");
                 Console.Write("Bitte gebe an wieviele Spieler es geben soll (1-6): ");
 
                 try
@@ -68,7 +68,7 @@ namespace Kniffel_cli
                 Console.ResetColor();
 
                 Console.ForegroundColor = ConsoleColor.DarkCyan;
-                Console.Write("{0,-" + werteNameBreite + "} | ", "Kniffel");
+                Console.Write("{0,-" + werteNameBreite + "} | ", "Knöffel");
                 Console.ResetColor();
                 foreach (var blatt in wuerfelBlattListe)
                 {

@@ -14,7 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Kniffel-cli\Kniffel-cli.csproj" />
+      <ProjectReference Include="..\Kniffel-cli\Knoeffel-cli.csproj" />
     </ItemGroup>
 
 </Project>

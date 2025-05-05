@@ -1,4 +1,4 @@
-﻿using Kniffel_cli;
+﻿using Knoeffel_cli;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Kniffel_cliTests
+namespace Knoeffel_cliTests
 {
     [TestClass]
     public class WuerfelBlattTests

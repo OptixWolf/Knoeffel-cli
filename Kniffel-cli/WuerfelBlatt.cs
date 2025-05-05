@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Kniffel_cli;
+using Knoeffel_cli;
 
-namespace Kniffel_cli
+namespace Knoeffel_cli
 {
     public class WuerfelBlatt
     {

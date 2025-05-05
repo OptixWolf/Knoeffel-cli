@@ -1,7 +1,7 @@
-using Kniffel_cli;
+using Knoeffel_cli;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Kniffel_cliTests;
+namespace Knoeffel_cliTests;
 
 [TestClass]
 public class WuerfelTests
